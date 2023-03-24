@@ -22,3 +22,15 @@ const galleryMarkup = images.reduce(
   ""
 );
 galleryList.insertAdjacentHTML("beforeend", galleryMarkup);
+galleryList.style.display: 'flex';
+galleryList.style.flexWrap: 'wrap';
+galleryList.style.listStyle: 'none';
+
+/*li {
+  width: 33.33%;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-bottom: 15px;
+
+} */
+

@@ -5,8 +5,8 @@
 let counterValue = 0;
 const valueEl = document.querySelector('#value');
 const btnDecrement = document.querySelector('[data-action="decrement"]');
-btnDecrement.addEventListener('click', ()=>{valueEl.textContent = counterValue +=1});
+btnDecrement.addEventListener('click', ()=>{valueEl.textContent = counterValue -=1});
 const btnIncrement = document.querySelector('[data-action="increment"]');
-btnIncrement.addEventListener('click', ()=>{valueEl.textContent = counterValue -=1});
+btnIncrement.addEventListener('click', ()=>{valueEl.textContent = counterValue +=1});
 
 

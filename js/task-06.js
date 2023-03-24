@@ -24,7 +24,7 @@ textInput.addEventListener('blur', (event) => {
     textInput.classList.add('valid');
     textInput.classList.remove('invalid');
   }
-  if (text.length !== Number(event.target.dataset.length)) {
+  else {
     textInput.classList.add('invalid');
     textInput.classList.remove('valid');
   }
